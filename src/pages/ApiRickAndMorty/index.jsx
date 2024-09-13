@@ -27,17 +27,17 @@ export default function ApiRickAndMorty() {
 
     async function buildCards() {
         const consulta = await getCharacters()
-        
+        console.log(consulta);
         return consulta.results.map(personagem => <Card key={personagem.id} data={personagem} />)
     }
 
     useEffect(() => {
         async function getConteudo() {
-            setConteudo(await buildCards())
+            setConteudo(await buildCards());
         }
 
-        getConteudo()
-    }, [])
+        getConteudo();
+    }, []); // Apenas roda uma vez após o componente montar
 
     return (
         <div className='list-api'>
