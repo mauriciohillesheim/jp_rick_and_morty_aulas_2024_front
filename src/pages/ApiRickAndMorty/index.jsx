@@ -37,7 +37,7 @@ export default function ApiRickAndMorty() {
         }
 
         getConteudo();
-    }, []); // Apenas roda uma vez após o componente montar
+    }, []);
 
     return (
         <div className='list-api'>
