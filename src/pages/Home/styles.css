@@ -1,21 +1,9 @@
-.home-page {
+.home-page{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #282c34;
-    color: white;
-    font-family: 'Arial', sans-serif;
+    flex-direction: column;
     text-align: center;
 }
-
-.home-page h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-}
-
-.home-page span {
-    font-size: 1.2rem;
-    color: #61dafb;
+.home-page input {
+    display: block;
 }

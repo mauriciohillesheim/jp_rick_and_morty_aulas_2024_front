@@ -1,9 +1,3 @@
-.home-page{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.about-page {
     text-align: center;
-}
-.home-page input {
-    display: block;
 }
